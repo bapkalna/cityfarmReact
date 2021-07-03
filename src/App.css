@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: rgb(213, 233, 215);
+    color: #234A12;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+header {
+    font-size: 3rem;
+}
+
+.card-deck {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  align-items: center;
+  -ms-text-size-adjust: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card-group {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.card {
+  border-radius: 2rem;
+  margin: 8px;   
+  text-align: center;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-img-top {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.card-link {
+  color: #234A12;
+}
+
+.card-footer {
+  background: #85a178;
+}
+
+.logo {
+  height: 55px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.navbar {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.login-icon {
+  padding: 10px 20px 10px 5px;
+  color: #234A12;
+}
+
+.login-button {
+  border: solid 1px #fafafa;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #234A12;
+}
+
+.buttonStyle {
+  background-color: #85a178;
+}
+
+.buttonStyle:hover {
+  color: white;
+}
+
+.modal-header {
+  background-color: #85a178;
+}
+
+.form-row {
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+.loginButtons {
+      display: flex;
+}
+
+.modal-footer {
+  display: flex;
+}
+
+.information-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      align-items: center;
+  }
+
+.information-col {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      margin-top: 5 rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      align-items: center;
+  }
+
+.ml-auto, .mx-auto {
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-circle {
+  margin: 2rem;
+  border-radius: 50%;
+}
+
+.joinButton {
+  background-color: #85a178;
+  color: white;
+}
+
+.blogpost-image {
+  width: 500px; 
+  height: 450px;
+  max-width: 100%;
+  height: auto;
+}
+
+.blogpost {
+  align-items: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: left;
+}
+
+.blogpost-divider {
+  background-color: #85a178;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-footer {
+  padding-top: 20px;;
+}
+
+.copyright {
+  background-color: #85a178;
+}
+
+.btn-social-icon:hover {
+background-color: #fafafa;
+border: solid 1px;
+color: #234A12;
+}
+
+.fa-chevron-down:hover {
+color: #85a178;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
