@@ -70,7 +70,7 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar light sticky="top" expand="md">
+        <Navbar light expand="md">
           <div className="container">
             <NavbarBrand className="mr-auto" href="/">
               <img
