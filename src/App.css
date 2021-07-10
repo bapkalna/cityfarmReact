@@ -169,6 +169,19 @@ header {
   background-size: cover;
 }
 
+.parallax-home {
+    background: src="assets/images/garden.jpeg";
+    display: table;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: none;
+}
+
 .site-footer {
   padding-top: 20px;;
 }

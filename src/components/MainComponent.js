@@ -6,6 +6,8 @@ import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import About from './AboutComponent';
+import Gardens from './GardensComponent';
+import Animals from './AnimalsComponent';
 import { Switch, Route, Redirect} from 'react-router-dom';
 import { GARDENS } from '../shared/gardens';
 import { COMMENTS } from '../shared/comments';
@@ -49,6 +51,8 @@ class Main extends Component {
               <Header />
               <Switch>
                     <Route path='/home' component={HomePage} />
+                    <Route path='/gardens' component={Gardens} />
+                    <Route path='/animals' component={Animals} />
                     <Route exact path='/directory' render={() => <Directory campsites={this.state.campsites} />} />
                     <Route path='/directory/:campsiteId' component={CampsiteWithId} />
                     <Route exact path='/contactus' component={Contact} />

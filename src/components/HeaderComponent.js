@@ -99,8 +99,16 @@ class Header extends Component {
                       Urban farming
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem href="#">Gardens</DropdownItem>
-                      <DropdownItem href="#">Animals</DropdownItem>
+                      <DropdownItem>
+                        <NavLink className="nav-link" to="/gardens">
+                        Gardens
+                        </NavLink>
+                      </DropdownItem>
+                      <DropdownItem>
+                      <NavLink className="nav-link" to="/animals">
+                        Animals
+                        </NavLink>
+                        </DropdownItem>
                       <DropdownItem href="#">Bees</DropdownItem>
                     </DropdownMenu>
                   </Dropdown>
