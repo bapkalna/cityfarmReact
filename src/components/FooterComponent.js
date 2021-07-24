@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Form, FormGroup, Label, Input, Col } from "reactstrap";
+import { Form } from "reactstrap";
 
 function Footer(props) {
   return (
@@ -55,7 +54,7 @@ function Footer(props) {
                 </div>
               </div>
               <div className="col-auto">
-                <button type="submit" class="btn buttonStyle mb-4">
+                <button type="submit" className="btn buttonStyle mb-4">
                   Subscribe
                 </button>
               </div>

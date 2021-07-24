@@ -8,11 +8,8 @@ import {
   CardDeck,
 } from "reactstrap";
 import {
-  ParallaxProvider,
-  Parallax,
   ParallaxBanner,
 } from "react-scroll-parallax";
-import posed from "react-pose";
 
 function RenderBlogPost({ item }) {
   return (
@@ -22,7 +19,7 @@ function RenderBlogPost({ item }) {
         <p>{item.description}</p>
       </div>
       <div className="col-md-5">
-        <img className="blogpost-image mx-auto" src={item.image}></img>
+        <img className="blogpost-image mx-auto" alt="blogpost" src={item.image}></img>
       </div>
     </div>
   );

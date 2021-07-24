@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Main from "./components/MainComponent";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import { ParallaxProvider, Parallax,ParallaxBanner } from "react-scroll-parallax";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 class App extends Component {
   render() {
