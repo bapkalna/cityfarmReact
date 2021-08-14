@@ -205,3 +205,11 @@ color: #85a178;
   border-bottom: 1px ridge;
   min-height: 200px;
 }
+
+.motto-card {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(213, 233, 215);
+  border-radius: 2rem;
+}
+

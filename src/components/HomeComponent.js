@@ -7,9 +7,8 @@ import {
   CardTitle,
   CardDeck,
 } from "reactstrap";
-import {
-  ParallaxBanner,
-} from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
+import MottoCard from "./MottoComponent";
 
 function RenderBlogPost({ item }) {
   return (
@@ -19,7 +18,11 @@ function RenderBlogPost({ item }) {
         <p>{item.description}</p>
       </div>
       <div className="col-md-5">
-        <img className="blogpost-image mx-auto" alt="blogpost" src={item.image}></img>
+        <img
+          className="blogpost-image mx-auto"
+          alt="blogpost"
+          src={item.image}
+        ></img>
       </div>
     </div>
   );
@@ -33,13 +36,11 @@ function Home(props) {
           className="parallax"
           layers={[
             {
-              image:
-                "assets/images/garden.jpeg",
+              image: "assets/images/garden.jpeg",
               amount: -0,
             },
             {
-              image:
-              "assets/images/garden.jpeg",
+              image: "assets/images/garden.jpeg",
               amount: 0.3,
             },
           ]}
@@ -47,8 +48,7 @@ function Home(props) {
             height: "50vh",
           }}
         >
-          <h1>Urban farming - </h1>
-                <h2>the future of cities!</h2>
+          <MottoCard />
         </ParallaxBanner>
       </div>
       <div>

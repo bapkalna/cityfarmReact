@@ -6,7 +6,6 @@ import Gardens from './GardensComponent';
 import Animals from './AnimalsComponent';
 import { Switch, Route, Redirect} from 'react-router-dom';
 import { GARDENS } from '../shared/gardens';
-import { COMMENTS } from '../shared/comments';
 import { ANIMALS } from '../shared/animals';
 import { BEES } from '../shared/bees';
 
@@ -16,8 +15,7 @@ class Main extends Component {
     this.state = {
       gardens: GARDENS,
       animals: ANIMALS,
-      bees: BEES,
-      comments: COMMENTS
+      bees: BEES
     };
   }
 

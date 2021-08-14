@@ -55,7 +55,7 @@ class Header extends Component {
     });
   }
 
-  handleCloseModal () {
+  handleCloseModal() {
     this.setState({ isModalOpen: false });
   }
 
@@ -101,15 +101,19 @@ class Header extends Component {
                     <DropdownMenu>
                       <DropdownItem>
                         <NavLink className="nav-link" to="/gardens">
-                        Gardens
+                          Gardens
                         </NavLink>
                       </DropdownItem>
                       <DropdownItem>
-                      <NavLink className="nav-link" to="/animals">
-                        Animals
+                        <NavLink className="nav-link" to="/animals">
+                          Animals
                         </NavLink>
-                        </DropdownItem>
-                      <DropdownItem href="#">Bees</DropdownItem>
+                      </DropdownItem>
+                      <DropdownItem>
+                        <NavLink className="nav-link" to="/bees">
+                          Bees
+                        </NavLink>
+                      </DropdownItem>
                     </DropdownMenu>
                   </Dropdown>
                 </NavItem>
@@ -135,7 +139,11 @@ class Header extends Component {
                 </NavItem>
               </Nav>
               <span className="navbar-text ml-auto">
-                <Button outline onClick={this.toggleModal} className="login-button">
+                <Button
+                  outline
+                  onClick={this.toggleModal}
+                  className="login-button"
+                >
                   <i className="fa fa-sign-in fa-lg login-icon" /> Login
                 </Button>
               </span>
